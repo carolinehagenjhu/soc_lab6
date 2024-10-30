@@ -596,7 +596,7 @@ proc create_root_design { parentCell } {
     CONFIG.C_ALL_INPUTS_2 {1} \
     CONFIG.C_ALL_OUTPUTS {1} \
     CONFIG.C_GPIO2_WIDTH {4} \
-    CONFIG.C_GPIO_WIDTH {4} \
+    CONFIG.C_GPIO_WIDTH {7} \
     CONFIG.C_IS_DUAL {1} \
   ] $DIPS_AND_LEDS
 
