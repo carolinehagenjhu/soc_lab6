@@ -611,7 +611,7 @@ proc create_root_design { parentCell } {
     CONFIG.Latency {8} \
     CONFIG.M_DATA_Has_TUSER {Not_Required} \
     CONFIG.Noise_Shaping {Auto} \
-    CONFIG.Output_Frequency1 {0.001} \
+    CONFIG.Output_Frequency1 {0.003} \
     CONFIG.Output_Selection {Sine} \
     CONFIG.Output_Width {15} \
     CONFIG.PINC1 {1000011000110} \
