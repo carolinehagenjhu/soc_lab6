@@ -43,7 +43,7 @@ entity design_1_wrapper is
     mclk : out STD_LOGIC;
     sdata : out STD_LOGIC;
     sw : in std_logic_vector(3 downto 0); 
-    leds : out std_logic_vector(3 downto 0)
+    leds : out std_logic_vector(6 downto 0)
   );
 end design_1_wrapper;
 
@@ -82,7 +82,7 @@ architecture STRUCTURE of design_1_wrapper is
     lrck : out STD_LOGIC;
     mclk : out STD_LOGIC;
     sdata : out STD_LOGIC;
-    leds_gpio_tri_o : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    leds_gpio_tri_o : out STD_LOGIC_VECTOR ( 6 downto 0 );
     dips_gpio_tri_i : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   end component design_1;
